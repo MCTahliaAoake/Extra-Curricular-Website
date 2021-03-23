@@ -1,5 +1,6 @@
 body {
  margin:0;
+ font-family: 'Times New Roman', Times, serif;
 }
 
 .big-image {
@@ -7,6 +8,32 @@ body {
     width:100vw;
     position: relative;
     background-size: cover;
-    background-position:
+    background-position: 50% 50%;
     background-image:
+    url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nzherald.co.nz%2Fnz%2Fcovid-19-coronavirus-aucklands-marist-college-has-four-confirmed-cases%2F4NG32PDCY37GYR74YMXI7QCIWY%2F&psig=AOvVaw2kpVVhaDqsxdg8-eCGbKJF&ust=1616618318403000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOibu9yix-8CFQAAAAAdAAAAABAD)
+}
+
+.overlay {
+    position:absolute ;
+    height: 100% ;
+    width: 100% ;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex direction: column;
+}
+
+.overlay h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+}
+
+.overlay p {
+    margin:0 ;
+    font size: 26px;
 }
